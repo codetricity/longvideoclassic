@@ -1,7 +1,7 @@
 # Long Video Classic Plug-in for RICOH THETA
 
 Overcomes 25 minute video limitation of the standard THETA V.
-Uses standard bitrate encoding and H.264 compression.
+Uses standard bitrate encoding and H.264 compression. 
 
 ## Limitations
 
@@ -45,5 +45,13 @@ Open the file.
 
 Save the file with metadata injected with a new filename. Use the new video file
 with injected metadata in your applications and on YouTube/Facebook.
+
+
+## Related Plug-in
+
+The [4k-long-video](https://github.com/theta360developers/4k-long-video) 
+plug-in uses HEVC compression and lower bitrate encoding. It can save longer
+videos and the file size will be smaller. However, you may have problems
+dealing with HEVC videos with some applications.
 
 ![Analytics](https://ga-beacon.appspot.com/UA-73311422-5/long-video-classic)
