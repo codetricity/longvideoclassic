@@ -312,8 +312,8 @@ public class CameraFragment extends Fragment {
 //            mMediaRecorder.setMaxFileSize(19327352832L); // max: 18 GB
 
 
-            String videoFile = String.format("%s/100RICOH/4K_longvideo_%s.mp4", DCIM, getDateTime());
-            String wavFile = String.format("%s/100RICOH/4K_longvideo_%s.wav", DCIM, getDateTime());
+            String videoFile = String.format("%s/100RICOH/classic_long_%s.mp4", DCIM, getDateTime());
+            String wavFile = String.format("%s/100RICOH/classic_long_%s.wav", DCIM, getDateTime());
 //            String videoWavFile = String.format("%s,%s", videoFile, wavFile);
             /**
              * deleting spatial audio to save on storage
