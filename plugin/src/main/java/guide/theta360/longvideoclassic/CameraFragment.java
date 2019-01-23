@@ -277,11 +277,7 @@ public class CameraFragment extends Fragment {
 
             // use H264 for classic old-school encoding
             camcorderProfile.videoCodec = MediaRecorder.VideoEncoder.H264;
-            /**
-             * available video encoders are listed below. Not sure if the THETA V
-             * will support HEVC officially, but it works in my tests. :-)
-             * https://developer.android.com/reference/android/media/MediaRecorder.VideoEncoder
-             */
+
 //            camcorderProfile.videoCodec = MediaRecorder.VideoEncoder.HEVC;
             camcorderProfile.audioCodec = MediaRecorder.AudioEncoder.AAC;
             camcorderProfile.audioChannels = 1;
